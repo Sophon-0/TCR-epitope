@@ -1,8 +1,8 @@
-# TCR-epitope binding affinity prediction
+# TCR-epitope binding prediction
 
 Data: 
 
-  - The notebook uses the MixTCRpred dataset and focuses on a "Leave One Epitope Out" cross-validation strategy. This means that for each epitope, both the epitope and its associated TCR sequences are unseen during the model's training phase.
+  - The notebook uses the MixTCRpred dataset with a "Leave One Epitope Out" cross-validation strategy. For each epitope, both the epitope and its associated TCR sequences are unseen during the model's training phase.
 
 Input Features:
 
