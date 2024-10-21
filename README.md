@@ -6,8 +6,8 @@ Data:
 
 Input Features:
 
-  - Epitope and TCR Embeddings: Generated using either the 'esm3-small-2024-08' or 'esm2_t6_8M_UR50D' ESM models.
-  - TCR VJ genes: Encoded as categorical variables.
+  - Epitope and TCR: pLM embeddings generated using either the 'esm3-small-2024-08' or 'esm2_t6_8M_UR50D' ESM models.
+  - VJ genes: Encoded as categorical variables for the TCR
   - HLA and species information: Encoded as categorical variables for the epitope.
 
 Negative Sampling: 
