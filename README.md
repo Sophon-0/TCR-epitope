@@ -1,4 +1,4 @@
-# TCR-epitope binding prediction
+# TCR-epitope binding prediction with pLM embeddings
 
 Data: 
 
