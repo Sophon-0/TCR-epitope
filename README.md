@@ -1,8 +1,6 @@
 # TCR-epitope binding prediction with pLM embeddings
 
-Data: 
-
-  - The notebook uses the MixTCRpred dataset with a "Leave One Epitope Out" cross-validation strategy. For each epitope, both the epitope and its associated TCR sequences are unseen during the model's training phase.
+This notebook uses the MixTCRpred dataset with a "Leave One Epitope Out" cross-validation strategy. For each epitope, both the epitope and its associated TCR sequences are unseen during the model's training phase.
 
 Input Features:
 
