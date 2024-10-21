@@ -12,7 +12,8 @@ Input Features:
 
 Negative Sampling: 
 
-  - Artificial negative samples (non-binding TCR-epitope pairs) are created using a random shuffling strategy to balance the dataset. Computationally generated negative / positive ratio set at 5. Max positive cases in test set is set at 1000, since there might not be enough TCR sequences for a ratio of 5.
+  - Artificial negative samples (non-binding TCR-epitope pairs) are created using a random shuffling strategy to balance the dataset with negative / positive ratio of 5.
+  - Max positive cases in test set is set at 1000, since there might not be enough TCR sequences for a ratio of 5.
 
 Finetuning is done using: 
 
