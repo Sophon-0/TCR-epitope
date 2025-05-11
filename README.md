@@ -1,10 +1,10 @@
-# TCR-epitope binding prediction with pLM embeddings
+# TCR-epitope binding prediction with PLM embeddings
 
 This notebook uses the MixTCRpred dataset with a "Leave One Epitope Out" cross-validation strategy. For each epitope, both the epitope and its associated TCR sequences are unseen during the model's training phase.
 
 Input Features:
 
-  - Epitope and TCR: pLM embeddings generated using either the 'esm3-small-2024-08' or 'esm2_t6_8M_UR50D' ESM models.
+  - Epitope and TCR: PLM embeddings generated using either the 'esm3-small-2024-08' or 'esm2_t6_8M_UR50D' ESM models.
   - VJ genes: Encoded as categorical variables for the TCR
   - HLA and species information: Encoded as categorical variables for the epitope.
 
